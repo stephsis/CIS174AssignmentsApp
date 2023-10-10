@@ -21,7 +21,7 @@ namespace CIS174AssignmentsApp.Controllers
                 AccessLevel = accessLevel
             };
 
-            return View();
+            return View(viewModel);
         }
     }
 }
